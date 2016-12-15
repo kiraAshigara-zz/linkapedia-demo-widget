@@ -1,0 +1,101 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description" content="Linkapedia widgets">
+    <title>Linkapedia Widgets</title>
+
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+          type="text/css">
+    <link rel="stylesheet" href="/plugins/mobile-devices/mobile-devices.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico"/>
+    <link type="text/css" rel="stylesheet" href="/plugins/materialize/css/materialize.min.css"
+          media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="/styles/main.css" media="screen,projection"/>
+    <script type="text/javascript" src="/scripts/jquery-2.1.0.min.js"></script>
+</head>
+<body current-blog-id="$blogId">
+<ul id="slide-out" class="side-nav fixed">
+    <div id="wrapper-slide-container">
+        <li><a class="step-widget blog-name" href="#!">Linkapedia widgets</a></li>
+    </div>
+    <div class="container-list-pages">
+        <ul class="list-pages">
+        </ul>
+    </div>
+</ul>
+<a href="#" id="menu-side-nav-linkapedia" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+<div id="content">
+    <div id="header">
+        <div id="header-preview">Preview</div>
+        <img class="img-mobile tooltipped device-active" src="/images/mobile.png"
+             data-position="bottom" data-delay="50" data-tooltip="Phone"/>
+        <img class="img-tablet tooltipped" src="/images/computer-tablet.png"
+             data-position="bottom" data-delay="50" data-tooltip="Tablet"/>
+        <img class="img-desktop tooltipped" src="/images/desktop-monitor.png"
+             data-position="bottom" data-delay="50" data-tooltip="Desktop"/>
+    </div>
+
+    <div id="content-data">
+        <div id="mobile-container">
+            <div class="container-img-mobile-landscape">
+                <img show-device="portrait" class="img-mobile-landscape tooltipped" src="/images/smartphone.png"
+                     data-position="bottom" data-delay="50" data-tooltip="Landscape/Portrait"/>
+            </div>
+            <div id="mobile-preview" class="marvel-device iphone6 silver">
+                <div class="top-bar"></div>
+                <div class="sleep"></div>
+                <div class="volume"></div>
+                <div class="camera"></div>
+                <div class="sensor"></div>
+                <div class="speaker"></div>
+                <div class="screen">
+                    <img class="icon-com-linkapedia-widget-topics" src="/images/linkalogo.png" />
+                    <img class="preview-documents" src=""></img>
+                    <iframe class="com-linkapedia-widget-topics" src="" style="display: none;"></iframe>
+                </div>
+                <div class="home"></div>
+                <div class="bottom-bar"></div>
+            </div>
+        </div>
+
+        <div id="tablet-container">
+            <div class="container-img-tablet-landscape">
+                <img show-device="portrait" class="img-tablet-landscape tooltipped" src="/images/smartphone.png"
+                     data-position="bottom" data-delay="50" data-tooltip="Landscape/Portrait"/>
+            </div>
+            <div id="tablet-preview" class="marvel-device ipad silver">
+                <div class="camera"></div>
+                <div class="screen">
+                    <img class="icon-com-linkapedia-widget-topics" src="/images/linkalogo.png" />
+                    <img class="preview-documents" src=""></img>
+                    <iframe class="com-linkapedia-widget-topics" src="" style="display: none;"></iframe>
+                </div>
+                <div class="home"></div>
+            </div>
+        </div>
+
+        <div id="desktop-container">
+            <div id="desktop-preview" class="marvel-device macbook">
+                <div class="top-bar"></div>
+                <div class="camera"></div>
+                <div class="screen">
+                    <img class="icon-com-linkapedia-widget-topics" src="/images/linkalogo.png" />
+                    <img class="preview-documents" src=""></img>
+                    <iframe class="com-linkapedia-widget-topics" src="" style="display: none;"></iframe>
+                </div>
+                <div class="bottom-bar"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/scripts/embed.js"></script>
+<script type="text/javascript" src="/plugins/materialize/js/materialize_custom.min.js"></script>
+<script type="text/javascript" src="/scripts/config.js"></script>
+<script type="text/javascript" src="/scripts/main.js"></script>
+</body>
+</html>
