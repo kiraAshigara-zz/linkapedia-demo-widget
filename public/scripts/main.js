@@ -109,6 +109,9 @@ $(document).ready(function () {
 
         $('.com-linkapedia-widget-topics').attr('src', Config.documents_relateds.format(Config.blog_active, page.doc));
         $('.icon-com-linkapedia-widget-topics').show();
+
+        $('.com-linkapedia-widget-topics').hide();
+        $('.screen').css('overflow', 'auto');
     });
 });
 
