@@ -6,6 +6,11 @@ String.prototype.format = function () {
 };
 
 $(document).ready(function () {
+    $('[url-doc]').click(function () {
+        var url = $(this).attr('url-doc');
+        window.open(url, '_blank');
+    });
+
     $(".button-collapse").sideNav();
 
     $(".img-mobile-landscape,.img-tablet-landscape").click(function (ev) {
@@ -103,6 +108,7 @@ $(document).ready(function () {
         var showDevice = $($('[show-device]')[0]).attr('show-device');
         $('[show-device]').data('page', page);
 
+        $('.preview-documents').attr('url-doc', page.url);
         $('#mobile-preview .preview-documents').attr('src', Config.mobile.format(Config.blog_active, showDevice, page.number));
         $('#tablet-preview .preview-documents').attr('src', Config.tablet.format(Config.blog_active, showDevice, page.number));
         $('#desktop-preview .preview-documents').attr('src', Config.desktop.format(Config.blog_active, page.number));
