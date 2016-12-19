@@ -10,8 +10,8 @@ var Config = {
             pages: [
                 {
                     name: 'Page 1',
-                    doc: '0000a7187098a25e5303bd431178a139',
-                    url: 'http://www.nytimes.com/2013/03/01/movies/here-i-learned-to-love-holocaust-documentary-by-avi-angel.html'
+                    doc: '0002339b382da23aa8453623eafadeab',
+                    url: 'http://www.nytimes.com/1993/09/26/books/in-short-fiction-036493.html'
                 },
                 {
                     name: 'Page 2',
@@ -20,8 +20,8 @@ var Config = {
                 },
                 {
                     name: 'Page 3',
-                    doc: '00016d80ff36403b77e97a5736f8b10f',
-                    url: 'http://www.nytimes.com/2001/12/12/sports/baseball-little-league-tightens-its-rules.html'
+                    doc: '0003ac2ae425da42592c725ce51e8907',
+                    url: 'http://www.nytimes.com/2012/12/04/business/daily-stock-market-activity.html'
                 },
                 {
                     name: 'Page 4',
@@ -40,13 +40,13 @@ var Config = {
                 },
                 {
                     name: 'Page 7',
-                    doc: '00027167deb0d459249690c5292ebcf5',
-                    url: 'http://www.nytimes.com/2011/07/31/fashion/mother-in-laws-use-of-facebook-concerns-mother-to-be.html'
+                    doc: '0003decffd63a3815cfc6c33bb59fde7',
+                    url: 'http://www.nytimes.com/1990/10/22/sports/sports-of-the-times-piniella-has-the-last-and-best-laugh.html'
                 },
                 {
                     name: 'Page 8',
-                    doc: '0002e3b13fb3947a07793125fcd41b39',
-                    url: 'http://www.nytimes.com/2001/06/14/opinion/essay-bush-unifies-europe.html'
+                    doc: '00081348b1b99c597f5519e8d8fe197f',
+                    url: 'http://www.nytimes.com/1999/12/12/business/portfolios-etc-finding-the-source-of-a-fizzled-gold-rally.html'
                 },
                 {
                     name: 'Page 9',
@@ -55,8 +55,18 @@ var Config = {
                 },
                 {
                     name: 'Page 10',
-                    doc: '0003e088774ca5e09f3a27c4ce491efd',
-                    url: 'http://www.nytimes.com/1999/05/20/nyregion/metro-news-briefs-new-york-police-rescue-woman-after-east-river-plunge.html'
+                    doc: '000c5a9f94021ddea846ea15fb368cc9',
+                    url: 'http://query.nytimes.com/gst/fullpage.html?res=9903EED9103BF934A15757C0A9679D8B63'
+                },
+                {
+                    name: 'Page 11',
+                    doc: '000f384fb8066875d67293297f2d82af',
+                    url: 'http://www.nytimes.com/1993/06/10/arts/japan-is-represented-by-an-artist-it-once-rejected.html'
+                },
+                {
+                    name: 'Page 12',
+                    doc: '001ad38c40b1cda7269bf56b2d2300e5',
+                    url: 'http://www.nytimes.com/2012/02/28/technology/wikileaks-publishes-intelligence-firm-e-mails.html'
                 }
             ]
         }
